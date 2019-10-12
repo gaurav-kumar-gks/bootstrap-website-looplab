@@ -1,0 +1,87 @@
+$bg-color:rgb(43, 41, 41);
+$font-color:#fff;
+$primary-color:#166c97; 
+$dark-overlay: rgba(0,0,0,0.7);
+$icon-size: 30px;
+
+body{
+  background: $bg-color;
+  color: $font-color;
+}
+
+.navbar{
+  border-bottom: $primary-color 3px solid;
+  opacity: 0.9;
+}
+
+#home-section{
+  background-image: url(../img/home.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  
+  background-position: center;
+  min-height: 700px;
+
+  .dark-overlay{
+    background-color: $dark-overlay;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+  }
+
+  .home-inner{
+    padding-top: 150px;
+  }
+
+  .card-form{
+    opacity: 0.8;
+  }
+
+  .fa{
+    color: $primary-color;
+    background: #fff;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: $icon-size;
+    opacity: 0.8;
+
+  }
+
+}
+
+#explore-section{
+  .fa{
+    color: #fff;
+    background: #333;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 25px;
+    opacity: 0.8;
+  }
+}
+
+#create-section{
+  .fa{
+    color: $primary-color;
+    background: #fff;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: $icon-size;
+    opacity: 0.8;
+
+  }
+}
+
+#share-section{
+  .fa{
+    color: #fff;
+    background: #333;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 25px;
+    opacity: 0.8;
+  }
+}
